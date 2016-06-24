@@ -1,10 +1,120 @@
 <!doctype html>
 <html>
     <head>
-	<title></title>
+	<link type="text/css" rel="stylesheet" href="style.css"/>
+	<title>Cheatsheet Commands</title>
 	<meta charset="utf-8" />
     </head>
     <body>
-	 
+	<header>
+	    <img src="Bash.jpeg" /> <!-- Add the logo -->
+	    <h2>Terminal Commands Cheatsheet</h2> <!-- Big title -->
+	</header>
+	<section>
+	    <div>
+		<h3>Directiory operation</h3>
+		<table> <!-- first table -->
+		    <tr>
+			<td>pwd</td>
+			<td class="description">Show current directory</td>
+		    </tr>
+		    <tr>
+			<td>mkdir <span>**name of the dir**</span></td>
+			<td class="description">Make directory</td>
+		    </tr>
+		    <tr>
+			<td>cd <span>**name of the dir**</span></td>
+			<td class="description">Change directory to **dir**</td>
+		    </tr>
+		    <tr>
+			<td>cd ..</td>
+			<td class="description">Go to the parent directory</td>
+		    </tr>
+		    <tr>
+			<td>cd</td>
+			<td class="description">Go to home</td>
+		    </tr>
+		    <tr>
+			<td>ls</td>
+			<td class="description">List files</td>
+		    </tr>
+		</table>
+	    </div>
+	    <div>
+		<h3>Ls option</h3>
+		<table>
+		    <tr>
+			<td>-a</td>
+			<td class="description">Show all(including hidden)</td>
+		    </tr>
+		    <tr>
+			<td>-R</td>
+			<td class="description">Recursive list</td>
+		    </tr>
+		    <tr>
+			<td>-r</td>
+			<td class="description">Reverse order</td>
+		    </tr>
+		</table>
+	    </div>
+	    <div>
+		<h3>Bash commands</h3>
+		<table>
+		    <tr>
+			<td>uname -a</td>
+			<td class="description">Show system and kernel</td>
+		    </tr>
+		    <tr>
+			<td>head -n1 /etc/issue</td>
+			<td class="description">Show distribution</td>
+		    </tr>
+		    <tr>
+			<td>mount</td>
+			<td class="description">Show mounted filesystems</td>
+		    </tr>
+		    <tr>
+			<td>date</td>
+			<td class="description">Show system date</td>
+		    </tr>
+		    <tr>
+			<td>uptime</td>
+			<td class="description">Show uptime</td>
+		    </tr>
+		    <tr>
+			<td>whoami</td>
+			<td class="description">Show your username</td>
+		    </tr>
+		    <tr>
+			<td>Man **command**</td>
+			<td class="description">Show manual for **command**</td>
+		    </tr>
+		</table>
+	    </div>
+	    <div>
+		<h3>Process management</h3>
+		<table>
+		    <tr>
+			<td>ps</td>
+			<td class="description">Show snapshot of precesses</td>
+		    </tr>
+		    <tr>
+			<td>top</td>
+			<td class="description">Show real time processes</td>
+		    </tr>
+		    <tr>
+			<td>kill **pid**</td>
+			<td class="description">Kill process with id **pid**</td>
+		    </tr>
+		    <tr>
+			<td>pkill **name**</td>
+			<td class="description">Kill process with name **name**</td>
+		    </tr>
+		    <tr>
+			<td>killall **name**</td>
+			<td class="description">Kill all processes with names<br> beginning **names**</td>
+		    </tr>
+		</table>
+	</section>
     </body>
+    
 </html>
