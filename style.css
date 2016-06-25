@@ -1,4 +1,4 @@
-@font-face
+@font-face			/*Add some new fonts*/
 {
     font-family: 'code_boldregular';
     src: url('./fonts/code_bold-webfont.woff2') format('woff2'),
@@ -20,6 +20,7 @@
 
 }
 
+/* Graphics change */
 header
 {
     background-color:#333333;
@@ -93,7 +94,7 @@ span
     color:#333333;
 }
 
-/* Responsive */
+/* Responsive remove wrapper */
 @media all and (max-width: 800px)
 {
     body
@@ -101,7 +102,7 @@ span
 	width:100%;
     }
 }
-/* Responsive */
+/* Responsive remove image */
 @media all and (max-width: 600px)
 {
     img
