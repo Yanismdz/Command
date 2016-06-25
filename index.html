@@ -1,4 +1,4 @@
-<!doctype html>
+<!Doctype html>
 <html>
     <head>
 	<link type="text/css" rel="stylesheet" href="style.css"/>
@@ -8,34 +8,34 @@
     <body>
 	<header>
 	    <img src="Bash.jpeg" /> <!-- Add the logo -->
-	    <h2>Terminal Commands Cheatsheet</h2> <!-- Big title -->
+	    <h1>Terminal Commands Cheatsheet</h1> <!-- Big title -->
 	</header>
 	<section>
 	    <div>
 		<h3>Directiory operation</h3>
 		<table> <!-- first table -->
-		    <tr>
-			<td>pwd</td>
+		    <tr class="colored">
+			<td class="function">pwd</td>
 			<td class="description">Show current directory</td>
 		    </tr>
 		    <tr>
-			<td>mkdir <span>**name of the dir**</span></td>
+			<td class="function">mkdir <span>**name of the dir**</span></td>
 			<td class="description">Make directory</td>
 		    </tr>
-		    <tr>
-			<td>cd <span>**name of the dir**</span></td>
-			<td class="description">Change directory to **dir**</td>
+		    <tr class="colored">
+			<td class="function">cd <span>**name of the dir**</span></td>
+			<td class="description">Change directory to <span>**dir**</span></td>
 		    </tr>
 		    <tr>
-			<td>cd ..</td>
+			<td class="function">cd ..</td>
 			<td class="description">Go to the parent directory</td>
 		    </tr>
-		    <tr>
-			<td>cd</td>
+		    <tr class="colored">
+			<td class="function">cd</td>
 			<td class="description">Go to home</td>
 		    </tr>
 		    <tr>
-			<td>ls</td>
+			<td class="function">ls</td>
 			<td class="description">List files</td>
 		    </tr>
 		</table>
@@ -43,16 +43,16 @@
 	    <div>
 		<h3>Ls option</h3>
 		<table>
-		    <tr>
-			<td>-a</td>
+		    <tr class="colored">
+			<td class="function">-a</td>
 			<td class="description">Show all(including hidden)</td>
 		    </tr>
 		    <tr>
-			<td>-R</td>
+			<td class="function">-R</td>
 			<td class="description">Recursive list</td>
 		    </tr>
-		    <tr>
-			<td>-r</td>
+		    <tr class="colored">
+			<td class="function">-r</td>
 			<td class="description">Reverse order</td>
 		    </tr>
 		</table>
@@ -61,60 +61,60 @@
 		<h3>Bash commands</h3>
 		<table>
 		    <tr>
-			<td>uname -a</td>
+			<td class="function">uname -a</td>
 			<td class="description">Show system and kernel</td>
 		    </tr>
-		    <tr>
-			<td>head -n1 /etc/issue</td>
+		    <tr class="colored">
+			<td class="function">head -n1 /etc/issue</td>
 			<td class="description">Show distribution</td>
 		    </tr>
 		    <tr>
-			<td>mount</td>
+			<td class="function">mount</td>
 			<td class="description">Show mounted filesystems</td>
 		    </tr>
-		    <tr>
-			<td>date</td>
+		    <tr class="colored">
+			<td class="function">date</td>
 			<td class="description">Show system date</td>
 		    </tr>
 		    <tr>
-			<td>uptime</td>
+			<td class="function">uptime</td>
 			<td class="description">Show uptime</td>
 		    </tr>
-		    <tr>
-			<td>whoami</td>
+		    <tr class="colored">
+			<td class="function">whoami</td>
 			<td class="description">Show your username</td>
 		    </tr>
 		    <tr>
-			<td>Man **command**</td>
-			<td class="description">Show manual for **command**</td>
+			<td class="function">Man <span>**command**</span></td>
+			<td class="description">Show manual for <span>**command**</span></td>
 		    </tr>
 		</table>
 	    </div>
 	    <div>
 		<h3>Process management</h3>
 		<table>
-		    <tr>
-			<td>ps</td>
+		    <tr class="colored">
+			<td class="function">ps</td>
 			<td class="description">Show snapshot of precesses</td>
 		    </tr>
 		    <tr>
-			<td>top</td>
+			<td class="function">top</td>
 			<td class="description">Show real time processes</td>
 		    </tr>
-		    <tr>
-			<td>kill **pid**</td>
-			<td class="description">Kill process with id **pid**</td>
+		    <tr class="colored">
+			<td class="function">kill <span>**pid**</span></td>
+			<td class="description">Kill process with id <span>**pid**</span></td>
 		    </tr>
 		    <tr>
-			<td>pkill **name**</td>
-			<td class="description">Kill process with name **name**</td>
+			<td class="function">pkill <span>**name**</span></td>
+			<td class="description">Kill process with name <span>**name**</span></td>
 		    </tr>
-		    <tr>
-			<td>killall **name**</td>
-			<td class="description">Kill all processes with names<br> beginning **names**</td>
+		    <tr class="colored">
+			<td class="function">killall<span>**name**</span></td>
+			<td class="description">Kill all processes with names<br> beginning <span>**names**</span></td>
 		    </tr>
 		</table>
 	</section>
     </body>
-    
+        
 </html>
