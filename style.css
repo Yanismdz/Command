@@ -49,7 +49,7 @@ h1
 
 body
 {
-    width:50%;
+    width:800px;
     margin: 0 auto;
 }
 
@@ -92,3 +92,21 @@ span
 {
     color:#333333;
 }
+
+/* Responsive */
+@media all and (max-width: 800px)
+{
+    body
+    {
+	width:100%;
+    }
+}
+/* Responsive */
+@media all and (max-width: 600px)
+{
+    img
+    {
+	display:none;
+    }
+}
+    
